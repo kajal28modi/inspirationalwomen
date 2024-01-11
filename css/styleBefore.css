@@ -1,0 +1,424 @@
+body{
+  margin: 0;
+  background-color:rgba(246, 241, 234, 0.699);
+  font-family:sans-serif; 
+  font-weight: 200;
+ 
+}
+h3{
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  background:#703f37;
+}
+header::after{
+  content: '';
+  display: table;
+  clear:both;
+
+}
+.intro{
+  color: #EDF7F6;
+}
+
+
+nav ul{
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom:2%;
+  margin-right: 2%;
+
+
+}
+nav a{
+  font-size:24px;
+  color: white;
+  font-family:Arial Narrow;
+  text-decoration: none;
+}
+nav a:hover{
+  color:#c29591;
+
+
+}
+.space{
+  background: #BFD1E5;
+  padding: .5%;
+  width: 99%;
+}
+.space2{
+  background:#BFD1E5;
+  padding: .5%;
+  width: 99%;
+}
+.space3{
+  background:#BFD1E5;
+  padding: .5%;
+  width: 99%;
+}
+.title-page{
+  width:100%;
+  height:50vh;
+  background-image:url(../images/beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:table;
+  background-attachment: fixed;
+
+}
+
+.title-page h3{
+  
+  color:white;
+  background-size: 100%;
+  font-family: cursive;
+  font-size: 50px;
+  margin: 0px;
+  text-align: center;
+  vertical-align:middle;
+  display: table-cell;
+  
+}
+/*CODE FOR THE ARROW*/
+.arrow {
+  margin-left: auto;
+  margin-right: auto;
+  width:10%;
+  position: relative;
+  margin-top: 40%;
+  margin-bottom: 0;
+}
+.arrow1 {
+  margin-left: auto;
+  margin-right: auto;
+  width:10%;
+  position: relative;
+  margin-top: 40%;
+  margin-bottom: 0;
+}
+.arrow img{
+  max-width:100%;
+  
+  
+}
+.arrow1 img{
+  max-width:100%;
+  
+  
+}
+/*Code for the first box about poverty */
+.boxed{
+  position: absolute;
+  margin-top: 5%;
+  width: 89%;
+  padding: 1%;
+  background: #c29591;
+  border: #BFD1E5 5px;
+  margin-left: 4%;
+  margin-right:4%;
+  box-shadow: 10px -20px rgb(125,148,181);
+  border-radius: 17px;
+  display: flex;
+  margin-bottom: 15%;
+}
+
+.boxed .struggles p{
+  font-size: 20px;
+  color: white;
+
+}
+.boxed .povertyimg {
+  
+  vertical-align:middle;
+  width:39%;
+
+}
+.boxed .povertyimg img{
+  
+  max-width:90%;
+  max-height: 90%;
+  margin-top: 1%;
+  margin-left:5%;
+
+
+}
+.boxed .struggles h2{
+  font-family:URW Chancery L, cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: white;
+  font-size: 25px;
+}
+.boxed .struggles ul li{
+  padding-bottom: 1%;
+  color: white;
+  font-size:22px;
+}
+.boxed .struggles{
+  padding-left: 1%;
+  padding-bottom:2%;
+  color: white;
+  width:55%;
+
+}
+/* code for the second box about abuse*/
+.boxed2{
+  position: absolute;
+  width: 89%;
+  padding: 20px;
+  background: #c29591;
+  border: #BFD1E5 5px;
+  margin-left: 4%;
+  margin-right:4%;
+  box-shadow: 10px -20px rgb(125,148,181);
+  border-radius: 17px;
+  display: flex;
+  float:left;
+  margin-top:1%;
+}
+.boxed2 .abuseimg {
+  
+  vertical-align:middle;
+  width:39%;
+}
+.boxed2 .abuseimg img{
+  
+  max-width:90%;
+  max-height: 90%;
+  margin-top: 1%;
+  margin-left:5%;
+
+}
+.boxed2 .abuse p{
+  font-size: 20px;
+  color: white;
+
+}
+.boxed2 .abuse h2{
+  font-family:URW Chancery L, cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: white;
+  font-size: 25px;
+}
+.boxed2 .abuse ul li{
+  padding-bottom: 1%;
+  color:color;
+  font-size:18px;
+}
+.boxed2 .abuse{
+  padding-left: 1%;
+  padding-bottom:2%;
+  color: white;
+  width:58%;
+  height:80%;
+}
+/*third box- turning point class*/
+.boxed3{
+  position: absolute;
+
+  width: 89%;
+  padding: 1%;
+  background: #c29591;
+  border: #BFD1E5 5px;
+  margin-left: 4%;
+  margin-right:4%;
+  box-shadow: 10px -20px rgb(125,148,181);
+  border-radius: 17px;
+  display: flex;
+  float:left;
+  margin-top:1%;
+}
+.boxed3 .educationimg {
+
+  vertical-align:middle;
+  width:39%;
+
+}
+.boxed3 .educationimg img{
+  
+  max-width:90%;
+  max-height: 90%;
+  margin-top: 2%;
+  margin-left:5%;
+}
+.boxed3 .turning-point p{
+  font-size: 20px;
+  color: white;
+
+}
+.boxed3 .turning-point h2{
+  font-family:URW Chancery L, cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: white;
+  font-size: 25px;
+}
+.boxed3 .turning-point ul li{
+  padding-bottom: 1%;
+  color: white;
+  font-size:18px;
+}
+.boxed3 .turning-point{
+  padding-left: 1%;
+  padding-bottom:2%;
+  color: white;
+  width:55%;
+  height:80%;
+}
+/*bottom class quote*/
+.quote{
+  text-align: center;
+  color:#703f37;
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: bold;
+  padding-bottom:2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top:32%;
+
+}
+
+/* CSS FOR FOOTER*/
+.footer{
+  background-color:#7d94b5;
+  /*padding: 6%;*/
+  width:100%;
+  height: 30%;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  /*font-family: cursive;*/
+  font-weight: lighter;
+  font-style: italic;
+  font-family:Georgia;
+  float:left;
+
+}
+
+.button a { 
+  color: papayawhip;
+  margin-top: 80%;
+}
+
+.social-menu {     
+  width: 100%;
+  
+  }
+.contact-form {
+ width: 100%;
+ font-size: 17px;
+ margin: 2% 0;
+ }
+.text_div{
+ margin: 0 4% 0 21%;
+ }
+.contact-form div {
+
+  text-align: center;
+  color:white;  
+  font-size: 17px;
+  font-family:Georgia;
+  background-size:100%;
+  float:left;
+ 
+  
+}
+.social-menu ul {
+  
+  background-size: 100%;
+ /* display:inline-block;*/
+  overflow:hidden; 
+  float: left;
+  margin: 0% 7% 2% 21%;
+  
+}
+.social-menu form { 
+  margin-top: 9px;  
+  float: left;
+  width:400px;
+  }
+.social-menu form input{
+  width: 235px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.social-menu form button{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 12px;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 10px 10px;
+  display: inline-block;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: .5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+ 
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background: linear-gradient(to right,darkblue,white);
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background: linear-gradient(to top,lightblue,white);
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background: linear-gradient(to left, red, orange, yellow, green, blue, purple);
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background: linear-gradient(to bottom,red,white)
+}
+
+.footer .footer-content .contact-form .contact-input{
+  background: black;
+  color: white;
+ /* margin-bottom: 10px;*/
+  line-height: 1.5rem;
+  padding: .7rem 1.2rem;
+  margin: 6% 0;
+
+}
+.outro{
+  width:100%;
+}

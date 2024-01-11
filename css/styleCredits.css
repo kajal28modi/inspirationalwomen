@@ -1,0 +1,302 @@
+body{
+  margin: 0;
+  background-color:rgba(246, 241, 234, 0.692);
+  font-family:sans-serif; 
+  font-weight: 200;
+ 
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  background:#703f37;
+}
+header::after{
+  content: '';
+  display: table;
+  clear:both;
+
+}
+.intro{
+  color: #EDF7F6;
+}
+.space{
+  background: #b6c48e;
+  padding: .5%;
+  width: 99%;
+}
+.space2{
+  background:#b6c48e;
+  padding: .5%;
+  width: 99%;
+}
+.space3{
+  background:#b6c48e;
+  padding: .5%;
+  width: 99%;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+nav li{
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom:2%;
+  margin-right: 2%;
+
+
+}
+nav a{
+  font-size:24px;
+  color: white;
+  font-family:Arial Narrow;
+  text-decoration: none;
+}
+nav a:hover{
+  color:#c29591;
+
+
+}
+/*CODE FOR THE PARALLAX */
+.credit-author{
+  width:100%;
+  height:50vh;
+  background-image:url(../images/imagecredit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:table;
+  background-attachment: fixed;
+
+}
+.credit-author h3{
+  
+  color:white;
+  background-size: 100%;
+  font-family: cursive;
+  font-size: 60px;
+  margin: 0px;
+  text-align: center;
+  vertical-align:middle;
+  display: table-cell;
+}
+/*CODE FOR THE CREDIT BOXES*/
+.kajal-info{
+  border: 5px solid#703f37 ;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top:5%;
+  margin-right:8%;
+  margin-bottom:5%;
+  background-color: #d998a0;
+  font-family: 'Times New Roman', Times, serif; 
+  display: block;  
+  text-align: center;
+  font-size: 22px;
+  color: white;
+
+}
+.courses{
+  border: 5px solid#703f37 ;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top:5%;
+  margin-right:8%;
+  margin-bottom:5%;
+  background-color: #c29591;
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 22px;
+  color: white;
+}
+.courses h1{
+  text-align: center;
+  color: white;
+}
+
+.images{
+  border: 5px solid#703f37 ;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top:5%;
+  margin-right:8%;
+  margin-bottom:5%;
+  background-color: #B4D3B2;
+  font-family: 'Times New Roman', Times, serif; 
+  display: block; 
+  font-size: 22px; 
+  color: white;
+}
+.images h1{
+  text-align: center;
+  color: white;
+}
+.sources{
+  border: 5px solid#703f37 ;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top:5%;
+  margin-right:8%;
+  margin-bottom:5%;
+  background-color: #7d94b5;
+  font-family: 'Times New Roman', Times, serif; 
+  display: block;  
+  font-size: 22px;
+  
+  color: white;
+}
+.sources h1{
+  text-align: center;
+  color: white;
+}
+.code{
+  border: 5px solid#703f37 ;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top:5%;
+  margin-right:8%;
+  margin-bottom:5%;
+  background-color: #BFD1E5;
+  font-family: 'Times New Roman', Times, serif; 
+  display: block;  
+  font-size: 22px;
+  
+  color: white;
+}
+.code h1{
+  text-align: center;
+  color: white;
+}
+.footer{
+  background-color:#7d94b5;
+  /*padding: 6%;*/
+  width:100%;
+  height: 30%;
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  /*font-family: cursive;*/
+  font-weight: lighter;
+  font-style: italic;
+  font-family:Georgia;
+  
+
+}
+
+.button a { 
+  color: papayawhip;
+  margin-top: 80%;
+}
+
+.social-menu {     
+  width: 100%;
+  
+  }
+.contact-form {
+ width: 100%;
+ font-size: 17px;
+ margin: 2% 0;
+ }
+.text_div{
+ margin: 0 4% 0 21%;
+ }
+.contact-form div {
+
+  text-align: center;
+  color:white;  
+  font-size: 17px;
+  font-family:Georgia;
+  background-size:100%;
+  float:left;
+ 
+  
+}
+.social-menu ul {
+  
+  background-size: 100%;
+ /* display:inline-block;*/
+  overflow:hidden; 
+  float: left;
+  margin: 0% 7% 2% 21%;
+  
+}
+.social-menu form { 
+  margin-top: 9px;  
+  float: left;
+  width:400px;
+  }
+.social-menu form input{
+  width: 235px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.social-menu form button{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 12px;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 10px 10px;
+  display: inline-block;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: .5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+ 
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background: linear-gradient(to right,darkblue,white);
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background: linear-gradient(to top,lightblue,white);
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background: linear-gradient(to left, red, orange, yellow, green, blue, purple);
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background: linear-gradient(to bottom,red,white)
+}
+
+.footer .footer-content .contact-form .contact-input{
+  background: black;
+  color: white;
+ /* margin-bottom: 10px;*/
+  line-height: 1.5rem;
+  padding: .7rem 1.2rem;
+  margin: 6% 0;
+
+}
+.outro{
+  width:100%;
+}
